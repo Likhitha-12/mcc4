@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main() {
+    int number;
+
+    printf("Enter a number from 1 to 6:");
+    scanf("%d", &number);
+    
+    if (number ==1){
+        printf("Your order is Burger\n");
+        printf("with the cost of 250");}
+    if (number ==2){
+        printf("Your order is French Fries \n");
+        printf("with the cost of 199");}
+    if (number ==3){
+        printf("Your order is Pizza\n");
+        printf("with the cost of 450");}
+    if (number ==4){
+        printf("Your order is Sandwich\n");
+        printf("with the cost of 155");}
+    if (number ==5){
+        printf("Your order is Milkshake\n");
+        printf("with the cost of 200");}
+    if (number ==6){
+        printf("Your order is Icecream\n");
+        printf("with the cost of 150");}
+        
+    return 0;
+}
